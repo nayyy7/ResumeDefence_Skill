@@ -1,7 +1,38 @@
-# Claude Code local personal settings (do not publish)
-.claude/settings.local.json
-**/.claude/settings.local.json
+# AI assistants and editor agents
+# Keep local prompts, rules, indexes, sessions, and generated metadata out of Git.
+.cursor/
+.cursorignore
+.cursorrules
+.claude/
+CLAUDE.md
+.codex/
+CODEX.md
+.agents/
+AGENTS.md
+.aider*
+.continue/
+.gemini/
+GEMINI.md
+.windsurf/
+.windsurfrules
+.roo/
+.cline/
+.github/copilot-instructions.md
 
-# OS files
+# Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating-system files
 .DS_Store
 Thumbs.db
+
+# Local environment and temporary files
+.env
+.env.*
+!.env.example
+*.log
+tmp/
+temp/
